@@ -1,0 +1,952 @@
+body {
+    background-color: rgb(2, 2, 2);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* padding-top: 60px;  */
+}
+
+.navb {
+    height: 60px;
+    background-color: rgb(8, 9, 10);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: px;
+    position: fixed;
+    /* fix it to viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000
+        /* position: fixed; */
+
+}
+
+.spotify-btn,
+.home-btn {
+    border: none;
+    background: rgb(3, 3, 3);
+    margin-right: 15px;
+    display: flex;
+}
+
+.home-btn {
+    /* margin: 15px; */
+    width: 30px;
+    /* proper width */
+    height: 30px;
+}
+
+.bttn,
+.bttn2 {
+    width: 30px;
+    cursor: pointer;
+}
+
+.search-bar {
+    width: 365px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 15px;
+    outline: none;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 32px;
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+}
+
+/* Links inside navbar */
+.links {
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+    margin-top: 5px;
+
+}
+
+.links a {
+    color: rgb(201, 201, 87);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+    /* padding:  */
+    text-decoration: none;
+    color: #8e8c8c;
+}
+
+
+.h1 {
+
+    font-size: 10px;
+
+
+    width: 60px;
+    color: blue;
+}
+
+.h2 {
+
+    background-color: rgb(207, 208, 209);
+    height: 21px;
+    width: 86px;
+    display: inline-block;
+
+
+
+
+}
+
+.container {
+    height: 45px;
+    width: 45px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-left: auto;
+
+}
+
+.h2 {
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 32px;
+    margin-left: 50px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    /* font-weight: ; */
+}
+
+.h2:hover {
+    color: rgb(10, 237, 67);
+}
+
+.img1p:hover {
+    text-decoration: underline;
+}
+
+.b1 {
+    margin-left: 40px;
+    h
+}
+
+
+
+.h1 {
+    margin-top: 2px;
+    font-size: 12px;
+    margin-left: 1px;
+
+}
+
+.h1:hover {
+    color: rgb(20, 222, 20);
+}
+
+.b2:hover {
+    color: rgb(15, 232, 15);
+    transform: scale(1.09);
+}
+
+.b2 {
+    /* display: inline-block; */
+    /* required for transform */
+    /* transition: transform 0.2s; */
+    /* margin-left: 20px; */
+    font-size: ;
+}
+
+.h5 {
+    margin-right: 0px;
+    padding-left: 0px;
+}
+
+.ll {
+    /* padding-left: 20px; */
+    margin-right: 0px;
+    padding: 14px;
+    padding-left: 33px;
+    font-weight: bold;
+
+}
+
+.t3 {
+    margin-left: 27px;
+}
+
+.h4 {
+    margin-left: 20px;
+}
+
+.library-header {
+    font-weight: bold;
+    font-size: 18px;
+    /* or adjust as needed */
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    margin-left: 20px;
+    margin-top: 75px;
+    /* spacing between text and plus */
+}
+
+.library-header .plus-icon {
+    font-weight: normal;
+    font-size: 24px;
+    /* bigger plus sign */
+    cursor: pointer;
+    /* if clickable */
+    color: white;
+}
+
+
+
+
+
+
+
+.left-box {
+    background-color: rgb(23, 23, 24);
+    width: 248px;
+
+    margin-top: 60px;
+    margin-left: 9px;
+    border-radius: 12px;
+    /* overflow-y: auto; */
+    /* enables scrolling */
+    position: fixed;
+    /* makes fixed children relative */
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    height: 200x;
+    z-index: 100;
+    /* overflow-x: hidden; */
+    /* margin-left: 317px; */
+}
+
+/* Base state: hide scrollbars */
+.scroll-container {
+    overflow-x: auto;
+    /* enable horizontal scroll */
+    scrollbar-width: none;
+    /* Firefox: hide scrollbar */
+}
+
+.left-box::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari: hide scrollbar */
+}
+
+/* On hover: show scrollbars */
+.left-boxr:hover {
+    scrollbar-width: thin;
+    /* Firefox: show thin scrollbar */
+}
+
+.left-box:hover::-webkit-scrollbar {
+    display: block;
+    /* Chrome, Safari: show scrollbar */
+    height: 8px;
+    /* horizontal scrollbar height */
+}
+
+.left-box:hover::-webkit-scrollbar-thumb {
+    background: #555;
+    /* scrollbar thumb color */
+    border-radius: 4px;
+}
+
+.left-box:hover::-webkit-scrollbar-track {
+    background: transparent;
+    /* scrollbar track */
+}
+
+
+.boxes {
+    display: flex;
+    gap: 10px;
+}
+
+.right-box {
+    height: 2000px;
+    width: 982px;
+    background-color: rgb(23, 23, 24);
+    border-radius: 10px;
+    margin-top: 39px;
+    /* background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, #12111212 100%); */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.11) 0%, #121212 100%);
+
+    margin-left: 267px;
+    display: inline-block;
+
+}
+
+.tren {
+    margin-left: 23px;
+    font-size: 24px;
+    padding-left: 14px;
+    color: rgb(240, 240, 233);
+    /* background-color: bisque; */
+
+
+
+
+    font-size: 25px;
+    /* Large text */
+    font-weight: 700;
+    /* Bold */
+    /* color: rgb(14, 13, 13); */
+    /* White text */
+    margin: 26px;
+    /* Remove extra spacing */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Clean font */
+
+
+}
+
+.song1 {
+
+    height: 300px;
+    width: 129px;
+    background-color: aqua;
+    margin-left: 28px;
+    margin-top: -8px;
+    border-radius: 8px;
+}
+
+
+
+.scroll-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.badges {
+    display: flex;
+    overflow-x: auto;
+    /* Enables horizontal scroll */
+    scroll-behavior: smooth;
+    display: flex;
+    gap: 2px;
+    padding: 10px;
+    scrollbar-width: none;
+    /* Hide scrollbar in Firefox */
+}
+
+.badges::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar in Chrome */
+}
+
+.song1 {
+    position: relative;
+    /* important so play button is positioned inside */
+    height: 212px;
+    width: 168px;
+    background-color: #1d1c1c;
+    border-radius: 8px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+.arrow:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.arrow.left {
+    left: 5px;
+}
+
+.arrow.right {
+    right: 5px;
+}
+
+.karan {
+    height: 22px;
+    width: 153px;
+
+}
+
+.kiya {
+    height: 208px;
+    width: 175px;
+}
+
+.song2 {
+    position: relative;
+    /* important so play button is positioned inside */
+    height: 212px;
+    width: 143px;
+    background-color: #0d0c0c;
+    border-radius: 8px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.artists {
+    margin-left: 23px;
+    font-size: 24px;
+    padding-left: 54px;
+    color: rgb(240, 240, 233);
+    /* background-color: bisque; */
+    padding-top: 41px;
+    padding-bottom: 10px;
+
+
+
+
+
+
+    font-size: 25px;
+    /* Large text */
+    font-weight: 700;
+    /* Bold */
+    /* color: rgb(14, 13, 13); */
+    /* White text */
+    margin: -8px;
+    /* Remove extra spacing */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Clean font */
+
+
+}
+
+.badges2 {
+    display: flex;
+    gap: 34px;
+    margin-top: 1;
+    margin-left: 40px;
+    display: flex;
+    overflow-x: auto;
+    /* enable horizontal scroll */
+    scroll-behavior: smooth;
+    /* gap: 20px; */
+    padding: 10px;
+    scrollbar-width: none;
+    /* hide scrollbar (Firefox) */
+
+
+    /* padding: 60px; */
+}
+
+.badges2::-webkit-scrollbar {
+    display: none;
+    /* hide scrollbar (Chrome, Edge, Safari) */
+}
+
+.song3 {
+    position: relative;
+    /* important so play button is positioned inside */
+    height: 212px;
+    width: 143px;
+    background-color: #181717;
+    border-radius: 8px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.badges3 {
+    display: flex;
+    gap: 47px;
+    margin-top: 1;
+    margin-left: 47px;
+    display: flex;
+    overflow-x: auto;
+    /* enable horizontal scroll */
+    scroll-behavior: smooth;
+    /* gap: 20px; */
+    padding: 10px;
+    scrollbar-width: none;
+    /* hide scrollbar (Firefox) */
+
+
+    /* padding: 60px; */
+}
+
+.badges3::-webkit-scrollbar {
+    display: none;
+    /* hide scrollbar (Chrome, Edge, Safari) */
+}
+
+.albums {
+    margin-left: 23px;
+    font-size: 24px;
+    padding-left: 54px;
+    color: rgb(240, 240, 233);
+    /* background-color: bisque; */
+    padding-top: 41px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    /* Large text */
+    font-weight: 700;
+    /* Bold */
+    /* color: rgb(14, 13, 13); */
+    /* White text */
+    margin: -8px;
+    /* Remove extra spacing */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Clean font */
+}
+
+.song4 {
+    position: relative;
+    /* important so play button is positioned inside */
+    height: 212px;
+    width: 171px;
+    background-color: #151816;
+    border-radius: 8px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.song1:hover {
+    background-color: #272626;
+}
+
+.song2:hover {
+    background-color: #272626;
+}
+
+.song3:hover {
+    background-color: #272626;
+}
+
+.song4:hover {
+    background-color: #272626;
+}
+
+.radio {
+    margin-left: 23px;
+    font-size: 24px;
+    padding-left: 54px;
+    color: rgb(240, 240, 233);
+    /* background-color: bisque; */
+    padding-top: 41px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    /* Large text */
+    font-weight: 700;
+    /* Bold */
+    /* color: rgb(14, 13, 13); */
+    /* White text */
+    margin: -8px;
+    /* Remove extra spacing */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Clean font */
+}
+
+.badges4 {
+    display: flex;
+    gap: 21px;
+    margin-top: 1;
+    margin-left: 47px;
+    display: flex;
+    overflow-x: auto;
+    /* enable horizontal scroll */
+    scroll-behavior: smooth;
+    /* gap: 20px; */
+    padding: 10px;
+    scrollbar-width: none;
+    /* hide scrollbar (Firefox) */
+
+
+    /* padding: 60px; */
+}
+
+.badges4::-webkit-scrollbar {
+    display: none;
+    /* hide scrollbar (Chrome, Edge, Safari) */
+}
+
+.left-box::-webkit-scrollbar-track {
+    background: #121212;
+
+}
+
+.custom-line {
+    border: none;
+    /* remove default border */
+    height: 1px;
+    /* thickness */
+    background-color: #444;
+    /* line color (gray) */
+    margin: 115px 0;
+    /* spacing above & below */
+    margin-left: 38px;
+    width: 93%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 80px;
+    background-color: #151414ca;
+    padding-top: 2px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.footer-column h4 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-column a {
+    color: #b3b3b3;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    background-color: #222;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    background-color: #333;
+}
+
+.intext1 h4 {
+    margin-bottom: 12px;
+    /* Reduce space below h4 */
+}
+
+.intext1 h5 {
+    margin-top: 0;
+    /* Remove space above h5 */
+}
+
+.intext1 {
+    color: #fff;
+    margin-top: -141px;
+    /* padding: 5px; */
+    margin-left: 30px;
+}
+
+.inbox1 {
+    margin-left: 2px;
+    height: 148px;
+    width: 227px;
+    background-color: #0f100f;
+   margin-top: 71px;
+    border-radius: 18px;
+
+}
+
+.Create {
+    border-radius: 33px;
+    margin-left: 56px;
+    widht: 23px;
+    height: 36px;
+    width: 144px;
+    cursor: pointer;
+    font-weight: bold;
+    /* transition: 3s; */
+
+    /* padding-left: 66px; */
+
+}
+
+.Create:hover {
+    transform: scale(1.09);
+}
+
+.intext2 h4 {
+    margin-bottom: 12px;
+    /* Reduce space below h4 */
+}
+
+.intext2 h5 {
+    margin-top: 0;
+    /* Remove space above h5 */
+}
+
+.intext2 {
+    color: #fff;
+    margin-top: -179px;
+    /* padding: 5px; */
+    margin-left: 16px;
+    width: 242px;
+}
+
+.inbox2 {
+    margin-left: 3px;
+    height: 199px;
+    width: 230px;
+    background-color: #0f100f;
+
+    margin-top: 27px;
+    border-radius: 18px;
+
+}
+
+.Create {
+    border-radius: 33px;
+    margin-left: 56px;
+    widht: 23px;
+    height: 36px;
+    width: 144px;
+    cursor: pointer;
+    font-weight: bold;
+    /* transition: 3s; */
+
+    /* padding-left: 66px; */
+
+}
+
+.Create:hover {
+    transform: scale(1.09);
+}
+
+.headrbx {
+    margin-left: 11px;
+    position: fixed;
+
+
+    top: 59px;
+    left: -1px;
+    width: 247px;
+    height: 62px;
+    
+    z-index: 2000;
+    gap: 20px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 5px;
+
+
+    background-color: #040804;
+}
+
+.leftbtm {
+
+
+    background-color: #2b2e2c;
+    height: 90px;
+    width: 100%;
+    /* ✅ Matches left-box width automatically */
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    /* ✅ Adds gap below scroll content */
+
+
+
+}
+
+.YOUR {
+    font-weight: bold;
+    font-size: 18px;
+    /* or adjust as needed */
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    margin-left: 21px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.PLUS {
+    margin-left: 97px;
+    font-weight: normal;
+    font-size: 24px;
+    /* bigger plus sign */
+    cursor: pointer;
+    /* if clickable */
+    color: white;
+}
+
+
+
+.img1p {
+    text-decoration: none;
+
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+
+
+}
+
+.song1t1 {
+    margin-top: 7px;
+    margin-left: -100px;
+    font-size: 11px;
+    color: #9c9c9c;
+}
+
+.play-button {
+    color: #060505;
+    position: absolute;
+    bottom: 47px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: #5fda65;
+    /* Spotify green */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    /* hidden by default */
+    transition: opacity 0.3s ease;
+}
+
+.song1:hover .play-button {
+    opacity: 1;
+
+}
+
+.song2:hover .play-button,
+.song3:hover .play-button,
+.song4:hover .play-button {
+    opacity: 1;
+}
+
+.imgt1 {
+    height: 164px;
+    margin-top: -5px;
+    border-radius: 8px;
+    width: 155px;
+}
+
+.song2t2 {
+    margin-left: -26px;
+
+}
+
+
+.legall {
+    color: #b3b3b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    gap: 7px;
+}
+
+.legall:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.Cookies {
+    left: 33px;
+    top: 33px;
+    word-wrap: break-word;
+    text-decoration: none;
+    border: none;
+    /* removes border */
+    outline: none;
+    /* removes focus outline */
+    background: none;
+    background-color: #373636;
+    border-radius: 33px;
+    margin-left: 14px;
+
+    height: 36px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border-color: #fff;
+    margin-top: 9px;
+    
+
+}
+
+.lang {
+    margin-top: 33px;
+}
+
+.eng {
+    background-color: #0f100f;
+    border-radius: 33px;
+    margin-left: 10px;
+
+    height: 36px;
+    width: 116px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border-color: #fcf8f8;
+    margin-top: 20px;
+    display: block;
+    /* border: none; */
+    /* removes border */
+    /* outline: none; */
+}
+.eng:hover{
+    height: 37px;
+    width: 117px;
+    background-color: rgb(58, 57, 57);
+}
