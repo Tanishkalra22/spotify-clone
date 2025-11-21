@@ -2,7 +2,7 @@ body {
     background-color: rgb(2, 2, 2);
     margin: 0;
     font-family: Arial, sans-serif;
-    /* padding-top: 60px;  */
+
 }
 
 .navb {
@@ -13,13 +13,11 @@ body {
     padding: 0 20px;
     border-radius: px;
     position: fixed;
-    /* fix it to viewport */
+
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000
-        /* position: fixed; */
-
 }
 
 .spotify-btn,
@@ -31,9 +29,9 @@ body {
 }
 
 .home-btn {
-    /* margin: 15px; */
+
     width: 30px;
-    /* proper width */
+
     height: 30px;
 }
 
@@ -58,7 +56,7 @@ body {
     color: aliceblue;
 }
 
-/* Links inside navbar */
+
 .links {
     display: flex;
     gap: 25px;
@@ -72,7 +70,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: 0.2s;
-    /* padding:  */
+
     text-decoration: none;
     color: #8e8c8c;
 }
@@ -116,7 +114,7 @@ body {
     margin-left: 50px;
     padding: 15px;
     color: rgb(0, 0, 0);
-    /* font-weight: ; */
+
 }
 
 .h2:hover {
@@ -164,7 +162,7 @@ body {
 }
 
 .ll {
-    /* padding-left: 20px; */
+
     margin-right: 0px;
     padding: 14px;
     padding-left: 33px;
@@ -183,7 +181,7 @@ body {
 .library-header {
     font-weight: bold;
     font-size: 18px;
-    /* or adjust as needed */
+
     color: white;
     font-family: Arial, sans-serif;
     display: flex;
@@ -191,15 +189,15 @@ body {
     gap: 85px;
     margin-left: 20px;
     margin-top: 75px;
-    /* spacing between text and plus */
+
 }
 
 .library-header .plus-icon {
     font-weight: normal;
     font-size: 24px;
-    /* bigger plus sign */
+
     cursor: pointer;
-    /* if clickable */
+
     color: white;
 }
 
@@ -216,53 +214,49 @@ body {
     margin-top: 60px;
     margin-left: 9px;
     border-radius: 12px;
-    /* overflow-y: auto; */
-    /* enables scrolling */
+
     position: fixed;
-    /* makes fixed children relative */
-    /* overflow: scroll; */
-    /* overflow-y: scroll; */
+
     height: 200x;
     z-index: 100;
-    /* overflow-x: hidden; */
-    /* margin-left: 317px; */
+
 }
 
-/* Base state: hide scrollbars */
+
 .scroll-container {
     overflow-x: auto;
-    /* enable horizontal scroll */
+
     scrollbar-width: none;
-    /* Firefox: hide scrollbar */
+
 }
 
 .left-box::-webkit-scrollbar {
     display: none;
-    /* Chrome, Safari: hide scrollbar */
+
 }
 
-/* On hover: show scrollbars */
+
 .left-boxr:hover {
     scrollbar-width: thin;
-    /* Firefox: show thin scrollbar */
+
 }
 
 .left-box:hover::-webkit-scrollbar {
     display: block;
-    /* Chrome, Safari: show scrollbar */
+
     height: 8px;
-    /* horizontal scrollbar height */
+
 }
 
 .left-box:hover::-webkit-scrollbar-thumb {
     background: #555;
-    /* scrollbar thumb color */
+
     border-radius: 4px;
 }
 
 .left-box:hover::-webkit-scrollbar-track {
     background: transparent;
-    /* scrollbar track */
+
 }
 
 
@@ -296,15 +290,13 @@ body {
 
 
     font-size: 25px;
-    /* Large text */
+
     font-weight: 700;
-    /* Bold */
-    /* color: rgb(14, 13, 13); */
-    /* White text */
+
     margin: 26px;
-    /* Remove extra spacing */
+
     font-family: Arial, Helvetica, sans-serif;
-    /* Clean font */
+
 
 
 }
@@ -330,23 +322,23 @@ body {
 .badges {
     display: flex;
     overflow-x: auto;
-    /* Enables horizontal scroll */
+
     scroll-behavior: smooth;
     display: flex;
     gap: 2px;
     padding: 10px;
     scrollbar-width: none;
-    /* Hide scrollbar in Firefox */
+
 }
 
 .badges::-webkit-scrollbar {
     display: none;
-    /* Hide scrollbar in Chrome */
+
 }
 
 .song1 {
     position: relative;
-    /* important so play button is positioned inside */
+
     height: 212px;
     width: 168px;
     background-color: #1d1c1c;
@@ -390,7 +382,7 @@ body {
 
 .song2 {
     position: relative;
-    /* important so play button is positioned inside */
+
     height: 212px;
     width: 143px;
     background-color: #0d0c0c;
@@ -411,7 +403,7 @@ body {
     font-size: 24px;
     padding-left: 54px;
     color: rgb(240, 240, 233);
-    /* background-color: bisque; */
+
     padding-top: 41px;
     padding-bottom: 10px;
 
@@ -421,15 +413,13 @@ body {
 
 
     font-size: 25px;
-    /* Large text */
+
     font-weight: 700;
-    /* Bold */
-    /* color: rgb(14, 13, 13); */
-    /* White text */
+
     margin: -8px;
-    /* Remove extra spacing */
+
     font-family: Arial, Helvetica, sans-serif;
-    /* Clean font */
+
 
 
 }
@@ -441,25 +431,25 @@ body {
     margin-left: 40px;
     display: flex;
     overflow-x: auto;
-    /* enable horizontal scroll */
+
     scroll-behavior: smooth;
-    /* gap: 20px; */
+
     padding: 10px;
     scrollbar-width: none;
-    /* hide scrollbar (Firefox) */
 
 
-    /* padding: 60px; */
+
+
 }
 
 .badges2::-webkit-scrollbar {
     display: none;
-    /* hide scrollbar (Chrome, Edge, Safari) */
+
 }
 
 .song3 {
     position: relative;
-    /* important so play button is positioned inside */
+
     height: 212px;
     width: 143px;
     background-color: #181717;
@@ -482,20 +472,20 @@ body {
     margin-left: 47px;
     display: flex;
     overflow-x: auto;
-    /* enable horizontal scroll */
+
     scroll-behavior: smooth;
-    /* gap: 20px; */
+
     padding: 10px;
     scrollbar-width: none;
-    /* hide scrollbar (Firefox) */
 
 
-    /* padding: 60px; */
+
+
 }
 
 .badges3::-webkit-scrollbar {
     display: none;
-    /* hide scrollbar (Chrome, Edge, Safari) */
+
 }
 
 .albums {
@@ -503,24 +493,22 @@ body {
     font-size: 24px;
     padding-left: 54px;
     color: rgb(240, 240, 233);
-    /* background-color: bisque; */
+
     padding-top: 41px;
     padding-bottom: 10px;
     font-size: 25px;
-    /* Large text */
+
     font-weight: 700;
-    /* Bold */
-    /* color: rgb(14, 13, 13); */
-    /* White text */
+
     margin: -8px;
-    /* Remove extra spacing */
+
     font-family: Arial, Helvetica, sans-serif;
-    /* Clean font */
+
 }
 
 .song4 {
     position: relative;
-    /* important so play button is positioned inside */
+
     height: 212px;
     width: 171px;
     background-color: #151816;
@@ -557,19 +545,17 @@ body {
     font-size: 24px;
     padding-left: 54px;
     color: rgb(240, 240, 233);
-    /* background-color: bisque; */
+
     padding-top: 41px;
     padding-bottom: 10px;
     font-size: 25px;
-    /* Large text */
+
     font-weight: 700;
-    /* Bold */
-    /* color: rgb(14, 13, 13); */
-    /* White text */
+
     margin: -8px;
-    /* Remove extra spacing */
+
     font-family: Arial, Helvetica, sans-serif;
-    /* Clean font */
+
 }
 
 .badges4 {
@@ -579,20 +565,20 @@ body {
     margin-left: 47px;
     display: flex;
     overflow-x: auto;
-    /* enable horizontal scroll */
+
     scroll-behavior: smooth;
-    /* gap: 20px; */
+
     padding: 10px;
     scrollbar-width: none;
-    /* hide scrollbar (Firefox) */
 
 
-    /* padding: 60px; */
+
+
 }
 
 .badges4::-webkit-scrollbar {
     display: none;
-    /* hide scrollbar (Chrome, Edge, Safari) */
+
 }
 
 .left-box::-webkit-scrollbar-track {
@@ -602,13 +588,13 @@ body {
 
 .custom-line {
     border: none;
-    /* remove default border */
+
     height: 1px;
-    /* thickness */
+
     background-color: #444;
-    /* line color (gray) */
+
     margin: 115px 0;
-    /* spacing above & below */
+
     margin-left: 38px;
     width: 93%;
 }
@@ -669,18 +655,18 @@ body {
 
 .intext1 h4 {
     margin-bottom: 12px;
-    /* Reduce space below h4 */
+
 }
 
 .intext1 h5 {
     margin-top: 0;
-    /* Remove space above h5 */
+
 }
 
 .intext1 {
     color: #fff;
     margin-top: -141px;
-    /* padding: 5px; */
+
     margin-left: 30px;
 }
 
@@ -689,7 +675,7 @@ body {
     height: 148px;
     width: 227px;
     background-color: #0f100f;
-   margin-top: 71px;
+    margin-top: 71px;
     border-radius: 18px;
 
 }
@@ -702,9 +688,7 @@ body {
     width: 144px;
     cursor: pointer;
     font-weight: bold;
-    /* transition: 3s; */
 
-    /* padding-left: 66px; */
 
 }
 
@@ -714,18 +698,18 @@ body {
 
 .intext2 h4 {
     margin-bottom: 12px;
-    /* Reduce space below h4 */
+
 }
 
 .intext2 h5 {
     margin-top: 0;
-    /* Remove space above h5 */
+
 }
 
 .intext2 {
     color: #fff;
     margin-top: -179px;
-    /* padding: 5px; */
+
     margin-left: 16px;
     width: 242px;
 }
@@ -749,9 +733,7 @@ body {
     width: 144px;
     cursor: pointer;
     font-weight: bold;
-    /* transition: 3s; */
 
-    /* padding-left: 66px; */
 
 }
 
@@ -768,7 +750,7 @@ body {
     left: -1px;
     width: 247px;
     height: 62px;
-    
+
     z-index: 2000;
     gap: 20px;
     border-top-left-radius: 9px;
@@ -801,7 +783,7 @@ body {
 .YOUR {
     font-weight: bold;
     font-size: 18px;
-    /* or adjust as needed */
+
     color: white;
     font-family: Arial, sans-serif;
     display: flex;
@@ -816,9 +798,9 @@ body {
     margin-left: 97px;
     font-weight: normal;
     font-size: 24px;
-    /* bigger plus sign */
+
     cursor: pointer;
-    /* if clickable */
+
     color: white;
 }
 
@@ -850,13 +832,13 @@ body {
     width: 50px;
     height: 50px;
     background-color: #5fda65;
-    /* Spotify green */
+
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
-    /* hidden by default */
+
     transition: opacity 0.3s ease;
 }
 
@@ -905,9 +887,9 @@ body {
     word-wrap: break-word;
     text-decoration: none;
     border: none;
-    /* removes border */
+
     outline: none;
-    /* removes focus outline */
+
     background: none;
     background-color: #373636;
     border-radius: 33px;
@@ -920,7 +902,7 @@ body {
     color: white;
     border-color: #fff;
     margin-top: 9px;
-    
+
 
 }
 
@@ -941,11 +923,10 @@ body {
     border-color: #fcf8f8;
     margin-top: 20px;
     display: block;
-    /* border: none; */
-    /* removes border */
-    /* outline: none; */
+
 }
-.eng:hover{
+
+.eng:hover {
     height: 37px;
     width: 117px;
     background-color: rgb(58, 57, 57);
